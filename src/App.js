@@ -1,12 +1,19 @@
-function Square({ value }) {
+import { use, useState } from 'react';
+
+function Square() {
+  const [value, setValue] = useState(null);
+  function handleClick() {
+    setValue('X');
+  }
   return (
-    <button className="square" onClick={console.log('button clicked')}>
-      X
+    <button className="square" onClick={handleClick}>
+      {value}
     </button>
   );
 }
 
 export default function Board() {
+  const [square, setSquare] = useState(Array(9).fill(null));
   return (
     <>
       <div>
