@@ -1,32 +1,9 @@
-function Square({ value }) {
-  return (
-    <button className="square" onClick={console.log('button clicked')}>
-      X
-    </button>
-  );
-}
+import Game from './components/Game';
 
-export default function Board() {
+export default function App() {
   return (
-    <>
-      <div>
-        <div className="status">Status here</div>
-        <div className="board-row">
-          <Square />
-          <Square />
-          <Square />
-        </div>
-        <div className="board-row">
-          <Square />
-          <Square />
-          <Square />
-        </div>
-        <div className="board-row">
-          <Square />
-          <Square />
-          <Square />
-        </div>
-      </div>
-    </>
+    <div>
+      <Game />
+    </div>
   );
 }
