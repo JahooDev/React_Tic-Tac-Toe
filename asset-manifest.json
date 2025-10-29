@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jahoodev.github.io/React_Tic-Tac-Toe/static/css/main.7950ce79.css",
+    "main.js": "/jahoodev.github.io/React_Tic-Tac-Toe/static/js/main.740a664d.js",
+    "index.html": "/jahoodev.github.io/React_Tic-Tac-Toe/index.html",
+    "main.7950ce79.css.map": "/jahoodev.github.io/React_Tic-Tac-Toe/static/css/main.7950ce79.css.map",
+    "main.740a664d.js.map": "/jahoodev.github.io/React_Tic-Tac-Toe/static/js/main.740a664d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7950ce79.css",
+    "static/js/main.740a664d.js"
+  ]
+}
