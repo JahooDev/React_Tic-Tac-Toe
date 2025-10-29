@@ -2,7 +2,7 @@
   "name": "react.dev",
   "version": "0.0.0",
   "main": "/src/index.js",
-  "homepage": "jahoodev.github.io/React_Tic-Tac-Toe/",
+  "homepage": "https://jahoodev.github.io/React_Tic-Tac-Toe/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
